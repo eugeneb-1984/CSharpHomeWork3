@@ -25,6 +25,7 @@ int GetNumber(string message) {
     return Number;
 }
 
+//считаем расстояние между точками (3D)
 double CalcDistance(int [] Point1, int [] Point2) {
     double distX = Math.Pow((Point2[0] - Point1[0]), 2); //6^2 = 36
     double distY = Math.Pow((Point2[1] - Point1[1]), 2); //8^2 = 64
